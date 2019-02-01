@@ -2,7 +2,15 @@
   <div class="col s6 offset=s3">
     <div class="card">
       <div class="card-content">
-
+        <form #registerForm="ngForm">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material icons prefix">account_circle</i>
+              <input type="text" name="Name" #Name ngModel>
+              <label>Name</label>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
